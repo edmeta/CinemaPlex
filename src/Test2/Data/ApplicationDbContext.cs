@@ -43,13 +43,8 @@ namespace CinemaPlex.Data
         private List<List<string>> GetData(string table)
         {
             SqlConnection myConnection = new SqlConnection("user id=jonathan;" +
-<<<<<<< HEAD
                                                            "password=;" +
                                                            "server=test.database.windows.net;" +
-=======
-                                                           "password=Sarpesarpe123;" +
-                                                           "server=webdevcinema.database.windows.net;" +
->>>>>>> d2759e5ca7591045760af98f06a0621de2dbd255
                                                            "Trusted_Connection=False;" +
                                                            "database=webdev-cinema; " +
                                                            "connection timeout=30");
